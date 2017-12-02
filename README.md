@@ -75,6 +75,8 @@ There are several ways to use the file loader:
 
 In order to change the behaviour of the import tool change the settings (importflags) in ``import_loader.ipf`` or use the multi-loader GUI.
 
+*change imported wavename: omit "(number)_" prefix at line 338 import_VAMAS in VAMAS_read_block
+
 **Requirements**:
 
 The following routines depend on ZIP.XOP (http://www.igorexchange.com/project/ZIP) in order to fully work:
